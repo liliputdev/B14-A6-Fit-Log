@@ -1,18 +1,18 @@
-***FitLog***
+FitLog
 
-FitLog is a responsive workout management website where users can browse exercises, view workout details, create a daily plan, and save workouts.
+FitLog is a modern and responsive workout management web application that helps users explore exercises, view detailed workout information, build a daily workout plan, save favorite workouts, and track completed exercises.
 
-**Technologies Used**
-Next.js
-React
-Tailwind CSS
-JavaScript
-REST API
+Technologies Used
+Next.js — Application framework and routing
+React — Building interactive UI components
+Tailwind CSS — Responsive and modern styling
+JavaScript — Application logic and functionality
+REST API — Fetching workout data
 
 
-**Key Features**
-Workout Library — Browse workouts with images, categories, equipment, and stats.
-Workout Details — View complete exercise information and instructions.
-Today's Plan — Add and manage daily workouts.
-Saved Workouts — Save workouts for later.
-Workout Tracking — Mark workouts as completed or remove them.# B14-A6-Fit-Log
+Key Features
+Workout Library — Explore workouts with images, categories, equipment, duration, calories, and ratings.
+Workout Details — View complete exercise information, specifications, and step-by-step instructions.
+Today's Plan — Add workouts to a daily plan and manage planned exercises.
+Saved Workouts — Save workouts for later and easily access them from the My Plan section.
+Workout Tracking — Mark exercises as completed or remove them from the daily plan.
