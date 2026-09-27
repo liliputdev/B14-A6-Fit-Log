@@ -1,13 +1,24 @@
+import Hero from "@/components/Hero";
+import Footer from "@/components/Footer";
+
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#08090a] px-6 py-20 text-white">
-      <h1 className="text-4xl font-bold">
-        FitLog
-      </h1>
+    <main className="min-h-screen bg-[#08090a] text-white">
+      <Hero />
 
-      <p className="mt-4 text-zinc-400">
-        Workout Library
-      </p>
+      <section id="library" className="px-6 py-20 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <h2 className="text-4xl font-black uppercase">
+            THE LIBRARY
+          </h2>
+
+          <p className="mt-2 text-zinc-400">
+            Twelve lifts covering every major muscle group.
+          </p>
+        </div>
+      </section>
+
+      <Footer />
     </main>
   );
 }
